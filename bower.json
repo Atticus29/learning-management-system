@@ -1,0 +1,21 @@
+{
+  "name": "learning-management-system",
+  "description": "An open source learning-management-system for Mark's courses",
+  "main": "",
+  "authors": [
+    "Mark <mark.aaron.fisher@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Atticus29/learning-management-system",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation-emails": "ink#^2.2.1"
+  }
+}

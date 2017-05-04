@@ -1,10 +1,33 @@
 {
   "user":{
-
+    "username": "mark.fisher",
+    "password": "test123"
   },
   "course":{
     "PCC-Biology-101-Lab":{
-      ""
+      "student":{
+        "name": "Mark Fisher",
+        "quiz1": 10,
+        "postlab1": 9,
+        "quiz2": 10,
+        "postlab2": 9,
+        "quiz3": 10,
+        "postlab3": 9,
+        "quiz4": 6,
+        "postlab4": 9,
+        "quiz5": 10,
+        "postlab5": 9,
+        "quiz6": 7,
+        "postlab6": 9,
+        "quiz7": 10,
+        "postlab7": 9,
+        "quiz8": 10,
+        "postlab8": 9,
+        "quiz9": 8,
+        "postlab9": 9,
+        "quiz10": 10,
+        "postlab10": 1,
+      }
     }
   }
 }
