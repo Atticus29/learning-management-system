@@ -16,6 +16,7 @@
     "tests"
   ],
   "dependencies": {
-    "foundation-emails": "ink#^2.2.1"
+    "foundation-emails": "ink#^2.2.1",
+    "Ink": "^3.1.10"
   }
 }

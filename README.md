@@ -2,6 +2,23 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
+## Setup
+
+* `bower init`
+* add '/bower_components' to .gitignore file
+* `bower install Ink --save`
+* add ink-ie.css and ink.css to angular-cli.json:
+  * ```
+  ...
+  "styles": [
+    "styles.css",
+    "../bower_components/ink/dist/css/ink-ie.css",
+    "../bower_components/ink/dist/css/ink.css"
+  ],
+  ...
+  ```
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

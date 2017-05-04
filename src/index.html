@@ -10,17 +10,11 @@
 </head>
 <body>
   <app-root>Loading...</app-root>
-  <ANY ng-controller="mycontroller">
-    <drawer position="left" content="#myContent">
-        <ul>
-            ...
-            <li><a ng-click="close()">Close</a></li>
-        </ul>
-    </drawer>
-
-    <ANY id="myContent">
-        <a ng-click="open()">Open</a>
-    </ANY>
-</ANY>
+  <div class="ink-grid">
+  <div class="column-group">
+    <div class="all-50 small-100 tiny-100">...</div>
+    <div class="all-50 small-100 tiny-100">...</div>
+  </div>
+</div>
 </body>
 </html>
